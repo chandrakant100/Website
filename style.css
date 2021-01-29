@@ -1,0 +1,56 @@
+#homepage{
+    background-image: url("images/technology_red.jpg");
+   }
+#ab{
+    background-image: url("images/austin-neill-IraMdOH78NE-unsplash.jpg");
+}
+#project{
+    background-image: url("images/abstract_banner_with_plexus_globe_and_flowing_particles_1012.jpg");
+}
+.jiggle{
+    animation-duration: 20s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+#header{
+    text-align: center;
+    color:rgb(243, 2, 2);
+    font-family:'Courier New', Courier, monospace;
+}
+
+@keyframes slidein {
+    0% {
+      margin-left: 0%;
+    }
+    50% {
+      margin-left: 300px;
+    }
+    100% {
+      margin-left: 0%;
+    }
+  }
+.btn:hover{
+    background-color:green;
+}
+.quote{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: rgb(19, 223, 155);
+    text-align: right;
+}
+.social{
+    margin-left: 700px;
+}
+.butt{
+    vertical-align: middle;
+    background-color:white;
+    border-radius: 50%;
+}
+.butt:hover{
+    background-color: black;
+}
+#chandra{
+    border-radius:50%;
+    height:auto;
+    width:auto;
+}
