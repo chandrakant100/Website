@@ -1,11 +1,15 @@
 #homepage{
     background-image: url("images/technology_red.jpg");
-   }
+}
 #ab{
     background-image: url("images/austin-neill-IraMdOH78NE-unsplash.jpg");
 }
 #project{
     background-image: url("images/abstract_banner_with_plexus_globe_and_flowing_particles_1012.jpg");
+}
+#homepage, #ab, #project{
+    width: auto;
+    height: auto;
 }
 .jiggle{
     animation-duration: 20s;
